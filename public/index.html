@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EnthuZiastic</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/metropolis-typeface@2.0.0/css/metropolis.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-white border-gray-500">
+    <nav class="bg-white p-4 flex justify-between items-center h-20">
+      <!-- Logo on the left -->
+      <div class="ml-8">
+        <img src="images/enthulogo.jpg" alt="Logo" class="h-7" />
+      </div>
+
+      <!-- Navigation tabs in the center -->
+      <div class="flex space-x-4 gap-12 text-base">
+        <select
+          id="course"
+          name="course"
+          class="text-enthuText hover:text-gray-900 bg-white"
+        >
+          <option value="volvo">Courses</option>
+          <option value="saab">Orders</option>
+        </select>
+        <a href="#" class="text-enthuText hover:text-gray-900">Courses</a>
+        <a href="#" class="text-enthuText hover:text-gray-900">Activities</a>
+        <a href="#" class="text-enthuText hover:text-gray-900">Offers</a>
+        <a href="#" class="text-enthuText hover:text-gray-900">About Us</a>
+        <a href="#" class="text-enthuText hover:text-gray-900">Contact Us</a>
+      </div>
+
+      <!-- Login and button on the right -->
+      <div class="flex items-center mr-8 space-x-4">
+        <a href="#" class="text-enthuText hover:text-gray-900">Login</a>
+        <button
+          class="bg-enthuPink text-white hover:bg-pink-800 px-4 py-2 rounded-md"
+        >
+          Get Started
+        </button>
+
+        <!-- Three images on the right -->
+
+        <img
+          src="images/whatsapp-logo.jpg"
+          alt="WhatsApp Image"
+          class="h-8 rounded-full"
+        />
+        <img
+          src="images/linkedIn-logo.jpg"
+          alt="LinkedIn Image"
+          class="h-12 rounded-full"
+        />
+        <img
+          src="images/facebook-logo.jpg"
+          alt="Facebook Image"
+          class="h-12 rect-full"
+        />
+      </div>
+    </nav>
+    <div
+      class="flex items-center justify-between bg-inviteBackground p-4 h-20 shadow mt-4"
+    >
+      <!-- Text on the left -->
+      <div class="ml-4">
+        <p class="text-enthuPurple text-2xl font-medium">
+          You Are Invited To Join This Batch
+        </p>
+      </div>
+
+      <!-- Green button on the right -->
+      <div>
+        <div class="mr-8">
+          <button
+            class="bg-enthuGreen text-white w-96 px-6 py-3 rounded-md hover:bg-green-800"
+          >
+            Accept & Proceed to pay
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- New div with height 1440px, grey background, and content -->
+    <div class="mt-4 bg-inviteFriend flex justify-between p-4 shadow h-28">
+      <!-- Back button on the left -->
+      <button
+        class="h-7 mt-2 flex items-center justify-center border-none outline-none w-20 ml-8"
+      >
+        <i
+          class="fa-solid fa-arrow-left fa-lg bg-inviteFriend"
+          style="color: #000000"
+        ></i>
+        <p class="bg-inviteFriend text-black ml-2 text-xl">Back</p>
+      </button>
+
+      <!-- Text in the center -->
+
+      <div class="flex-1 text-center">
+        <p class="text-xl font-medium text-enthuPurple">Accepting Students</p>
+        <p class="text-lg text-enthuPink px-4 py-2">
+          <span
+            class="inline-block bg-white rounded-full p-2 border-2 border-enthuPink font-medium"
+          >
+            Last date for applying<span class="font-semibold ml-2"
+              >28 March, 2023</span
+            >
+          </span>
+        </p>
+      </div>
+
+      <!-- Button with an image on the right -->
+      <button
+        class="bg-purple-700 text-white px-4 py-2 rounded-md flex items-center h-12 mr-8 hover:bg-purple-800"
+      >
+        Invite Your Friends
+        <img
+          src="images/invite-image.jpg"
+          alt="Button Image"
+          class="ml-2 rounded-full"
+        />
+      </button>
+    </div>
+    <div class="mt-8 mx-20 my-20">
+      <p class="text-enthuText font-semibold text-xl">Your Course</p>
+      <div class="border-2 rounded-md border-enthuPink h-48 flex p-4 mt-4">
+        <!-- Image on the left -->
+        <img
+          src="images/Video.jpg"
+          alt="Image"
+          class="h-100 w-100 object-cover mr-4 rounded-md"
+        />
+
+        <!-- Text on the right -->
+        <div>
+          <!-- First div with title and button -->
+          <div class="flex justify-between">
+            <p class="text-2xl font-medium text-enthuPink">Title</p>
+            <button
+              class="bg-notStartButton text-black px-3.5 rounded-md h-5 font-medium text-sm"
+            >
+              Not Started
+            </button>
+          </div>
+
+          <!-- Second div with text -->
+          <div class="mt-2">
+            <p class="text-base text-enthuText">
+              Learn to play violin with expert music teachers online at
+              Enthuziastic. Start from scratch and learn to play popular
+              melodies. Kids or adults, anybody can join this course and start
+              learning violin.
+            </p>
+          </div>
+
+          <!-- Third div with checkboxes and a button -->
+          <div class="flex justify-between mt-2">
+            <div class="flex gap-x-24">
+              <!-- Checkboxes arranged in three rows with two checkboxes in each row -->
+              <div>
+                <div class="flex items-center mb-2 mr-4">
+                  <i
+                    class="fa-solid fa-circle-check fa-sm"
+                    style="color: #ff1472"
+                  ></i>
+                  <p class="ml-2">
+                    <span class="text-base font-semibold">120 live </span>
+                    tutoring session
+                  </p>
+                </div>
+                <div class="flex items-center mb-2 mr-4">
+                  <i
+                    class="fa-solid fa-circle-check fa-sm"
+                    style="color: #ff1472"
+                  ></i>
+                  <p class="text-base font-semibold ml-2">12 Modules</p>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex items-center mb-2 mr-4">
+                  <i
+                    class="fa-solid fa-circle-check fa-sm"
+                    style="color: #ff1472"
+                  ></i>
+                  <p class="ml-2">
+                    Access on
+                    <span class="text-base font-semibold">mobile and web</span>
+                  </p>
+                </div>
+                <div class="flex items-center mb-2 mr-4">
+                  <i
+                    class="fa-solid fa-circle-check fa-sm"
+                    style="color: #ff1472"
+                  ></i>
+                  <p class="ml-2">
+                    <span class="text-base font-semibold">Certificate</span> of
+                    completion
+                  </p>
+                </div>
+              </div>
+              <div>
+                <div class="flex items-center mb-2 mr-4">
+                  <i
+                    class="fa-solid fa-circle-check fa-sm"
+                    style="color: #ff1472"
+                  ></i>
+                  <p class="ml-2">
+                    Access on
+                    <span class="text-base font-semibold">mobile and web</span>
+                  </p>
+                </div>
+                <div class="flex items-center mb-2 mr-4">
+                  <i
+                    class="fa-solid fa-circle-check fa-sm"
+                    style="color: #ff1472"
+                  ></i>
+                  <p class="ml-2">
+                    <span class="text-base font-semibold">Certificate</span> of
+                    completion
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div>
+              <button
+                class="bg-enthuPink text-white px-6 py-3 rounded-md shadow-md hover:bg-pink-800"
+              >
+                <i class="fa-regular fa-file-lines fa-lg mr-2"></i>
+                Curriculum
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="rounded-number flex items-center bg-footerBackground p-4 rounded-lg mt-4 h-14"
+      >
+        <div class="flex">
+          <p
+            class="number h-9 w-9 text-base font-medium text-footerBackground bg-white rounded-full px-2 py-1.5"
+          >
+            24
+          </p>
+          <p class="text-white text-xl font-medium px-2 py-1">Total Sessions</p>
+        </div>
+        <div class="flex ml-48">
+          <p
+            class="number h-9 w-9 text-base font-medium text-footerBackground bg-white rounded-full px-2.5 py-1.5"
+          >
+            14
+          </p>
+          <p class="text-white text-xl font-medium px-2 py-1">
+            Sessions Not Started
+          </p>
+        </div>
+        <div class="flex ml-48">
+          <p
+            class="number h-9 w-9 text-base font-medium text-footerBackground bg-white rounded-full px-2.5 py-1.5"
+          >
+            10
+          </p>
+          <p class="text-white text-xl font-medium px-2 py-1">
+            Sessions Completed
+          </p>
+        </div>
+      </div>
+      <!-- Batch -->
+      <div class="flex mt-4 gap-8">
+        <!-- First child div with width 323px (30%) -->
+        <div class="w-1/4">
+          <div class="p-2 rounded-t-xl bg-enthuLight">
+            <p class="text-center text-base font-medium">Batch No. - 1234567</p>
+          </div>
+          <div class="bg-sidebarBackground p-2">
+            <div class="flex items-center p-4">
+              <!-- Font Awesome icon instead of image -->
+              <i class="far fa-play-circle fa-lg" style="color: #000000"></i>
+              <p class="ml-2">
+                Sessions<span class="text-xl font-medium">: 24</span>
+              </p>
+            </div>
+
+            <div class="flex items-center p-4">
+              <!-- Font Awesome icon added -->
+              <i
+                class="fa-solid fa-user-group fa-lg"
+                style="color: #000000"
+              ></i>
+              <p class="ml-2">
+                Max Learner<span class="text-xl font-medium">: 4</span>
+              </p>
+            </div>
+
+            <div class="flex items-center p-4">
+              <i class="fa-solid fa-language fa-lg" style="color: #000000"></i>
+              <p class="ml-2">
+                Language<span class="text-xl font-medium">: English</span>
+              </p>
+            </div>
+
+            <div class="flex items-center p-4">
+              <i class="fa-regular fa-user fa-lg" style="color: #000000"></i>
+              <p class="ml-2">
+                Age Group<span class="text-xl font-medium">: 12 to 24</span>
+              </p>
+            </div>
+
+            <div class="flex items-center p-4">
+              <i
+                class="fa-regular fa-calendar fa-lg"
+                style="color: #000000"
+              ></i>
+              <p class="ml-2">
+                Start date<span class="text-xl font-medium">: 10 Aug 2023</span>
+              </p>
+            </div>
+
+            <hr class="text-sideBarSeprator mx-3" />
+          </div>
+
+          <div class="bg-sidebarBackground p-4">
+            <p class="font-light">
+              Schedule <span class="font-semibold">(Session/ Week - 4)</span>
+            </p>
+            <div class="flex gap-2 mt-2">
+              <button
+                class="border border-weekButton bg-white rounded-md w-7 h-7"
+              >
+                Su
+              </button>
+              <button
+                class="text-xs w-7 h-7 bg-enthuPink text-white rounded-md"
+              >
+                M
+              </button>
+              <button
+                class="border border-weekButton w-7 h-7 bg-white rounded-md"
+              >
+                T
+              </button>
+              <button class="w-7 h-7 bg-enthuPink text-white rounded-md">
+                W
+              </button>
+              <button
+                class="w-7 h-7 bg-white border border-weekButton rounded-md"
+              >
+                Th
+              </button>
+              <button
+                class="w-7 h-7 bg-white border border-weekButton rounded-md"
+              >
+                F
+              </button>
+              <button
+                class="w-7 h-7 bg-white border border-weekButton rounded-md"
+              >
+                S
+              </button>
+            </div>
+            <hr class="text-sideBarSeprator mx-3" />
+          </div>
+          <div class="bg-sidebarBackground px-4 py-3 rounded-b-xl">
+            <p class="text-sideBarText font-light mb-2">Host / Teacher</p>
+            <div class="flex gap-2">
+              <img
+                src="images/person1.jpg"
+                alt="User"
+                class="rounded-full w-10 h-10"
+              />
+              <div class="group relative">
+                <!-- Content of the div -->
+                <p class="font-medium text-userName">Avinash Dave</p>
+                <div class="flex">
+                  <p class="text-ratingColor">4.5</p>
+                  <div class="flex items-center mr-2 ml-2">
+                    <i
+                      class="fa-solid fa-star fa-lg"
+                      style="color: #ffbf00"
+                    ></i>
+                    <i
+                      class="fa-solid fa-star fa-lg"
+                      style="color: #ffbf00"
+                    ></i>
+                    <i
+                      class="fa-solid fa-star fa-lg"
+                      style="color: #ffbf00"
+                    ></i>
+                    <i
+                      class="fa-solid fa-star fa-lg"
+                      style="color: #ffbf00"
+                    ></i>
+                    <i
+                      class="fa-regular fa-star fa-lg"
+                      style="color: #ffbf00"
+                    ></i>
+                  </div>
+                  <p>(120)</p>
+                </div>
+
+                <!-- Tooltip -->
+                <div
+                  class="w-56 hidden group-hover:block absolute bg-white text-black p-2 rounded-md shadow"
+                >
+                  <p class="text-black font-semibold">Avinash Dave</p>
+                  <br />
+                  <p class="text-enthuText font-light">
+                    Bonnie drives the technical stratergy of the themesberg
+                    platform and brand
+                  </p>
+                  <br />
+                  <p class="text-enthuText font-semibold">
+                    10+ Years of Experience
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p class="text-sideBarText font-light mb-2">Enrolled Learner</p>
+            <div class="flex">
+              <img
+                src="images/person3.jpg"
+                alt="User"
+                class="rounded-full w-10 h-10"
+              />
+              <img
+                src="images/person2.jpg"
+                alt="User"
+                class="rounded-full w-10 h-10"
+              />
+              <img
+                src="images/person1.jpg"
+                alt="User"
+                class="rounded-full w-10 h-10"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Second child div covering the rest of the width (70%) -->
+        <div class="p-4 w-3/4">
+          <p class="text-xl font-semibold text-enthuText">Curriculum</p>
+          <div
+            class="border border-weekButton rounded-md font-light text-base h-custom overflow-y-auto p-3"
+          >
+            <p>
+              The violin course is designed to provide comprehensive instruction
+              and guidance for beginners and intermediate learners looking to
+              master the art of playing the violin. Throughout the course,
+              students will receive a well-structured curriculum that covers the
+              essential aspects of violin playing, from the basics to more
+              advanced techniques.
+            </p>
+            <br />
+            <p>
+              The course begins with an introduction to the violin, its parts,
+              and how to properly hold the instrument and the bow. Students will
+              learn the fundamentals of reading sheet music and understanding
+              musical notation specific to the violin. As the course progresses,
+              students will be introduced to basic bowing techniques, finger
+              placements, and scales. They will gradually advance to more
+              complex bowing styles, vibrato, and shifting positions on the
+              fingerboard. Proper posture and hand positioning will be
+              emphasized to ensure students develop good habits and prevent
+              injuries.
+            </p>
+            <br />
+            <p>
+              Throughout the course, students will be exposed to a variety of
+              musical pieces, ranging from classical to contemporary, allowing
+              them to apply their newly acquired skills and improve their
+              performance abilities. The violin course will also cover music
+              theory relevant to the instrument, enabling students to grasp the
+              principles of harmony, rhythm, and musical expression, enhancing
+              their overall musicianship.
+            </p>
+            <br />
+            <p>
+              In addition to individual practice, the course may include
+              ensemble playing opportunities, providing students with the chance
+              to collaborate with other musicians and develop their ensemble
+              skills.
+            </p>
+            <p>
+              By the end of the course, students should have gained a solid
+              foundation in violin playing, a good understanding of music
+              theory, and the ability to perform various pieces confidently.
+              Whether pursuing a professional music career or playing the violin
+              for personal enjoyment, this course aims to equip students with
+              the necessary skills to continue advancing their musical journey.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+              alias quas, itaque doloremque iusto reprehenderit illo! Culpa
+              accusamus eum modi magnam necessitatibus reiciendis fugiat fuga
+              officiis, quasi numquam ipsum tempore earum consequuntur quibusdam
+              amet nulla cupiditate. Pariatur aliquam ullam reprehenderit, totam
+              illum repellendus, sed molestiae necessitatibus, libero a facere
+              eos.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Price summary -->
+      <div class="flex items-center justify-between bg-white mt-4 h-16">
+        <!-- Left side with vertical text -->
+        <div>
+          <p class="font-semibold text-textGrey text-sm">Pro Rated Price</p>
+          <p class="text-3xl font-bold text-gray-900">
+            28.89$<span class="font-semibold text-sm ml-2">(14 sessions)</span>
+          </p>
+        </div>
+
+        <!-- Right side with horizontal buttons -->
+        <div class="flex space-x-2">
+          <button
+            class="bg-enthuPink w-96 text-white px-10 py-2 rounded-md hover:bg-pink-800"
+          >
+            Apply To Learn
+          </button>
+          <button
+            class="bg-white w-96 text-enthuPink border-2 border-enthuPink px-10 py-2 rounded-md hover:bg-gray-100"
+          >
+            Apply To Teach
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="mt-4 p-10 bg-footerBackground h-96">
+      <div>
+        <!-- Horizontal divs within the blue background -->
+        <div class="flex space-x-4">
+          <div class="w-3/5">
+            <img src="images/footer-logo.jpg" alt="footer Enthu" />
+            <p class="mt-3 text-white w-2/3">
+              EnthuZiastic is a vibrant and dynamic community dedicated to
+              fostering a passion for learning and personal growth
+            </p>
+            <div class="mt-3 text-white">
+              <i class="fa-brands fa-linkedin fa-lg hover:cursor-pointer"></i>
+              <i
+                class="fa-brands fa-twitter fa-lg ml-2 hover:cursor-pointer"
+              ></i>
+              <i class="fab fa-facebook-f fa-lg ml-2 hover:cursor-pointer"></i>
+              <i
+                class="fa-brands fa-youtube fa-lg ml-2 hover:cursor-pointer"
+              ></i>
+            </div>
+          </div>
+          <div class="w-1/5 text-white">
+            <ul class="list-none hover:cursor-pointer">
+              <li class="font-bold">Company</li>
+              <li>About</li>
+              <li>Premium</li>
+              <li>Blog</li>
+              <li>Affliation Program</li>
+              <li>Get Coupon</li>
+            </ul>
+          </div>
+          <div class="w-1/5 text-white">
+            <ul class="list-none hover:cursor-pointer">
+              <li class="font-bold">Help & Support</li>
+              <li>Contact Us</li>
+              <li>Knowledge Center</li>
+              <li>Premium Support</li>
+              <li>Sponsorship</li>
+            </ul>
+          </div>
+          <div class="w-1/5 text-white">
+            <ul class="list-none hover:cursor-pointer">
+              <li class="font-bold">Resources</li>
+              <li>Third Party Tools</li>
+              <li>Illiustrations</li>
+              <li>Themesburg</li>
+              <li>Blueshot</li>
+              <li>Stock Photos</li>
+            </ul>
+          </div>
+          <div class="w-1/5 text-white">
+            <ul class="list-none hover:cursor-pointer">
+              <li class="font-bold">Legal</li>
+              <li>Privacr Policy</li>
+              <li>Tems & Conditions</li>
+              <li>EULA</li>
+            </ul>
+          </div>
+        </div>
+        <hr class="mt-20 text-white" />
+        <div class="flex justify-center mt-4 text-center text-white">
+          <i class="far fa-copyright fa-lg mt-3"></i>
+          <p class="ml-2">2023 EnthuZiastic, Inc. All right reserved</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
